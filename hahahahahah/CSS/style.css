@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.up{
+    flex-direction: row;
+    border: 2px solid;
+}
+
+.mid{
+    display: flex;
+    align-items: baseline;
+}
+
+.l{
+    flex-grow: 1;
+    border: 2px solid;
+}
+
+.m{
+    flex-grow: 5;
+    border: 2px solid;
+}
+
+.bot{
+    border: 2px solid;
+}
